@@ -17,7 +17,7 @@ public:
         std::cout << "elem: " << elem << std::endl;
         return *this;
     }
-    Int operator++(int dummy)
+    Int operator++(int dummy) // post increment
     {
         Int temp;
         temp = *this;
